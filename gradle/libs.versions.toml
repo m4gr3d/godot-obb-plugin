@@ -1,0 +1,12 @@
+[versions]
+agp = "9.1.0"
+appcompat = "1.6.1"
+godot = "4.7.0.dev-SNAPSHOT" # TODO: Update to the stable version and bump the version to 1.0.
+
+[libraries]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+godot = { group = "org.godotengine", name = "godot", version.ref = "godot" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+
